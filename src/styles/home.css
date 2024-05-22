@@ -1,0 +1,124 @@
+#home{
+    display: flex;
+    height: 700px;
+    padding-top: 100px;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.1); 
+    
+}
+.profile-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-image: url('pexels-joyston-judah-933054.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.profile-details {
+    flex: 1;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.posts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-post {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.input-post img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.input-post input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #f0f2f5;
+}
+
+.post-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00998c;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.post-button:hover {
+    background-color: #006a61;
+    transform: scale(1.05);
+}
+
+.post {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.post h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.post p {
+    margin: 0;
+    color: #555;
+}

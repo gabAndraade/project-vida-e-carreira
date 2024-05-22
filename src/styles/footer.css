@@ -1,0 +1,37 @@
+footer{
+    padding: 4px 4%;
+    box-shadow:0 0 40px 10px #535c913d ;
+    background-color: #00998c;
+   
+}
+
+footer .flex{
+    justify-content:space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+.borda{
+    border-top: 2px solid #ffffff;
+}
+footer .line-footer p i{
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 12px;
+}
+footer .line-footer p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    border: none;
+    background-color: #ffffff;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+    margin: 0 6px;
+    transition: 200ms;
+}
